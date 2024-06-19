@@ -34,7 +34,26 @@ This project implements a variation of the classic game of Checkers with modifie
 
 2. Use the mouse to click on a piece to select it and then click on the destination square to move it. The current turn and scores are displayed on the top.
 
+    ### Video Demo
+    ![Checkers GUI Demo](./assets/gui_demo.gif)
 
-### Video Demo
-![Checkers GUI Demo](./assets/gui_demo.gif)
 
+## Game Rules
+- Objective: Capture all opponent's pieces or block them so they can't make a move.
+Moves: Pieces move diagonally on dark squares.
+- Captures: Jump over an opponent's piece to capture it. Multiple captures are possible in a single turn.
+- King Promotion: A piece that reaches the opponent's side is promoted to a king.
+- Triple King: A king that returns to its original side is promoted to a triple king with additional abilities.
+
+For detailed rules, refer to the [Game Rules document](./assets/Game_Rules.docx).
+
+## Testing
+To run the unit tests for the game, execute the following command:
+```sh
+python3 CheckersGameTester.py
+```
+
+## License
+This project is licensed under the MIT License. 
+
+Enjoy playing Checkers!
