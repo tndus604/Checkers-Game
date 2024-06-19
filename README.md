@@ -36,4 +36,8 @@ This project implements a variation of the classic game of Checkers with modifie
 
 
 ### Video Demo
-[Checkers GUI Demo](./assets/gui_demo.mov)
+
+<video width="320" height="240" controls>
+  <source src="./assets/gui_demo.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
